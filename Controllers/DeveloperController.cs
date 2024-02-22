@@ -9,6 +9,7 @@ namespace LBm295.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PublisherController : ControllerBase
     {
         private readonly Game _game;
